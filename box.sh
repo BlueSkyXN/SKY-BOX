@@ -63,36 +63,22 @@ yum install -y grub
 grub-mkconfig -o /boot/grub/grub.conf
 yum install -y grub2
 grub2-mkconfig -o /boot/grub2/grub.cfg
-echo
 blue "修复grub完成，显示内核参数如下"
-echo
 echo " =================================================="
 yellow "当前正在使用的内核"
-echo
 uname -a
-echo
 echo " =================================================="
-echo
 yellow "系统已经安装的全部内核"
-echo
 rpm -qa | grep kernel
-echo
 echo " =================================================="
-echo
 yellow "可使用的内核列表"
-echo
 awk -F\' '$1=="menuentry " {print i++ " : " $2}' /etc/grub2.cfg
-echo
 echo " =================================================="
-echo
 yellow "当前默认内核启动项"
 echo
 grub2-editenv list
-echo
 echo " =================================================="
-echo
 yellow "请自行重启后启动BBR加速"
-echo
 echo " =================================================="
 
 }
