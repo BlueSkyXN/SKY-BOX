@@ -364,7 +364,25 @@ blue "你也可以输入 bash /root/tcp.sh 来手动运行"
 bash "/root/tcp.sh"
 }
 
+#SWAP一键安装/卸载脚本
+function swapsh(){
+wget -O "/root/swap.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/swap.sh" --no-check-certificate -T 30 -t 5 -d
+chmod +x "/root/swap.sh"
+chmod 777 "/root/swap.sh"
+blue "下载完成"
+blue "你也可以输入 bash /root/swap.sh 来手动运行"
+bash "/root/swap.sh"
+}
 
+#Route-trace 路由追踪测试
+function rtsh(){
+wget -O "/root/rt.sh" "https://raw.githubusercontent.com/BlueSkyXN/Route-trace/main/rt.sh" --no-check-certificate -T 30 -t 5 -d
+chmod +x "/root/rt.sh"
+chmod 777 "/root/rt.sh"
+blue "下载完成"
+blue "你也可以输入 bash /root/rt.sh 来手动运行"
+bash "/root/rt.sh"
+}
 
 #主菜单
 function start_menu(){
@@ -389,6 +407,7 @@ function start_menu(){
     green " 15. Git 新版 安装"
     green " 16. 宝塔面板 自动磁盘挂载工具"
     green " 17. BBR管理脚本" 
+    green " 18. SWAP一键安装/卸载脚本"
     yellow " --------------------------------------------------"
     green " 21. Superbench 综合测试"
     green " 22. MT.SH 流媒体解锁测试"
@@ -396,6 +415,7 @@ function start_menu(){
     green " 24. UNIXbench 综合测试"
     green " 25. 三网Speedtest测速"
     green " 26. Memorytest 内存压力测试"
+    green " 27. Route-trace 路由追踪测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
     green " 32. V2UI 一键脚本"
@@ -455,6 +475,9 @@ function start_menu(){
 	17 )
            tcpsh
 	;;
+	18 )
+           swapsh
+	;;
 	21 )
            superbench
 	;;
@@ -472,6 +495,9 @@ function start_menu(){
 	;;
 	26 )
            memorytest
+	;;
+	27 )
+           rtsh
 	;;
 	31 )
            mtp
