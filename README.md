@@ -23,6 +23,7 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 15. Git 新版 安装
 16. 宝塔面板 自动磁盘挂载工具
 17. BBR管理脚本
+18. SWAP一键安装/卸载脚本
 --------------------------------------------------
 21. Superbench 综合测试
 22. MT.SH 流媒体解锁测试
@@ -30,6 +31,7 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 24. UNIXbench 综合测试
 25. 三网Speedtest测速
 26. Memorytest 内存压力测试
+27. Route-trace 路由追踪测试
 --------------------------------------------------
 31. MTP&TLS 一键脚本
 32. V2UI 一键脚本
