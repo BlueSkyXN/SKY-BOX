@@ -384,6 +384,15 @@ blue "你也可以输入 bash /root/rt.sh 来手动运行"
 bash "/root/rt.sh"
 }
 
+#Yabs.sh测试
+function yabssh(){
+wget -O "/root/yabs.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/yabs.sh" --no-check-certificate -T 30 -t 5 -d
+chmod +x "/root/yabs.sh"
+chmod 777 "/root/yabs.sh"
+blue "下载完成"
+bash "/root/yabs.sh"
+}
+
 #主菜单
 function start_menu(){
     clear
@@ -416,6 +425,7 @@ function start_menu(){
     green " 25. 三网Speedtest测速"
     green " 26. Memorytest 内存压力测试"
     green " 27. Route-trace 路由追踪测试"
+    green " 28. YABS LINUX综合测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
     green " 32. V2UI 一键脚本"
@@ -498,6 +508,9 @@ function start_menu(){
 	;;
 	27 )
            rtsh
+	;;
+	28 )
+           yabssh
 	;;
 	31 )
            mtp
