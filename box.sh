@@ -393,7 +393,7 @@ blue "下载完成"
 bash "/root/yabs.sh"
 }
 
-#Disk Test 硬盘性能测试
+#Disk Test 硬盘&系统综合测试
 function disktestsh(){
 wget -O "/root/disktest.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/disktest.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/disktest.sh"
@@ -435,7 +435,7 @@ function start_menu(){
     green " 26. Memorytest 内存压力测试"
     green " 27. Route-trace 路由追踪测试"
     green " 28. YABS LINUX综合测试"
-    green " 29. Disk Test 硬盘性能测试"
+    green " 29. Disk Test 硬盘&系统综合测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
     green " 32. V2UI 一键脚本"
