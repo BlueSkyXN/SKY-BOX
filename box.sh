@@ -1,5 +1,6 @@
 #! /bin/bash
 # By BlueSkyXN
+#https://github.com/BlueSkyXN/SKY-BOX
 
 #彩色
 red(){
@@ -14,7 +15,6 @@ yellow(){
 blue(){
     echo -e "\033[34m\033[01m$1\033[0m"
 }
-
 
 #IPV.SH ipv4/6优先级调整一键脚本·下载
 function ipvsh(){
@@ -393,13 +393,22 @@ blue "下载完成"
 bash "/root/yabs.sh"
 }
 
+#Disk Test 硬盘性能测试
+function disktestsh(){
+wget -O "/root/disktest.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/disktest.sh" --no-check-certificate -T 30 -t 5 -d
+chmod +x "/root/disktest.sh"
+chmod 777 "/root/disktest.sh"
+blue "下载完成"
+bash "/root/disktest.sh"
+}
+
 #主菜单
 function start_menu(){
     clear
     red " BlueSkyXN  综合工具箱" 
     red " CentOS·YUM Supported ONLY" 
-    green " https://github.com/BlueSkyXN/SKY-BOX "
-    green " https://www.blueskyxn.com/202104/4465.html "
+    green " FROM: https://github.com/BlueSkyXN/SKY-BOX "
+    green " HELP: https://www.blueskyxn.com/202104/4465.html "
     yellow " =================================================="
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"
@@ -426,6 +435,7 @@ function start_menu(){
     green " 26. Memorytest 内存压力测试"
     green " 27. Route-trace 路由追踪测试"
     green " 28. YABS LINUX综合测试"
+    green " 29. Disk Test 硬盘性能测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
     green " 32. V2UI 一键脚本"
@@ -511,6 +521,9 @@ function start_menu(){
 	;;
 	28 )
            yabssh
+	;;
+	29 )
+           disktestsh
 	;;
 	31 )
            mtp
