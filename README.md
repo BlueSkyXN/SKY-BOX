@@ -8,6 +8,7 @@ https://www.blueskyxn.com/202104/4465.html
 wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh
 
 # 功能表
+
 1. IPV.SH ipv4/6优先级调整一键脚本·下载
 2. IPT.SH iptable一键脚本
 3. SpeedTest-Linux 下载
@@ -34,7 +35,6 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 27. Route-trace 路由追踪测试
 28. YABS LINUX综合测试
 29. Disk Test 硬盘&系统综合测试
-
 210.TubeCheck Google/Youtube CDN分配节点测试
 --------------------------------------------------
 31. MTP&TLS 一键脚本
