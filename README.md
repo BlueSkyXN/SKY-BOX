@@ -9,6 +9,8 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 
 # 功能表
 
+## 下载区
+
 1. IPV.SH ipv4/6优先级调整一键脚本·下载
 2. IPT.SH iptable一键脚本
 3. SpeedTest-Linux 下载
@@ -16,7 +18,9 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 5. ChangeSource Linux换源脚本·下载
 6. Besttrace 路由追踪·下载
 7. NEZHA.SH哪吒面板/探针·下载
---------------------------------------------------
+
+## 工具区
+
 11. 获取本机IP
 12. 安装最新BBR内核·使用YUM
 13. 启动BBR FQ算法
@@ -25,7 +29,9 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 16. 宝塔面板 自动磁盘挂载工具
 17. BBR管理脚本
 18. SWAP一键安装/卸载脚本
---------------------------------------------------
+
+## 测试区
+
 21. Superbench 综合测试
 22. MT.SH 流媒体解锁测试
 23. Lemonbench 综合测试
@@ -35,13 +41,14 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 27. Route-trace 路由追踪测试
 28. YABS LINUX综合测试
 29. Disk Test 硬盘&系统综合测试
+210. TubeCheck Google/Youtube CDN分配节点测试
 
-210.TubeCheck Google/Youtube CDN分配节点测试
---------------------------------------------------
+## 补充脚本区
 31. MTP&TLS 一键脚本
 32. V2UI 一键脚本
 33. Aria2 最强安装与管理脚本
---------------------------------------------------
+
+## 宝塔区
 41. 宝塔面板 官方版·一键安装
 42. 宝塔面板 官方版·一键更新
 43. 宝塔面板 5.9开源免费版·一键安装
