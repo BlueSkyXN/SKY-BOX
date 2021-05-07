@@ -402,6 +402,15 @@ blue "下载完成"
 bash "/root/disktest.sh"
 }
 
+#TubeCheck Google/Youtube CDN分配节点测试
+function tubecheck(){
+wget -O "/root/TubeCheck" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/TubeCheck" --no-check-certificate -T 30 -t 5 -d
+chmod +x "/root/TubeCheck"
+chmod 777 "/root/TubeCheck"
+blue "下载完成"
+bash "/root/TubeCheck"
+}
+
 #主菜单
 function start_menu(){
     clear
@@ -436,6 +445,7 @@ function start_menu(){
     green " 27. Route-trace 路由追踪测试"
     green " 28. YABS LINUX综合测试"
     green " 29. Disk Test 硬盘&系统综合测试"
+    green " 210.TubeCheck Google/Youtube CDN分配节点测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
     green " 32. V2UI 一键脚本"
@@ -524,6 +534,9 @@ function start_menu(){
 	;;
 	29 )
            disktestsh
+	;;
+	210 )
+	tubecheck
 	;;
 	31 )
            mtp
