@@ -408,7 +408,8 @@ wget -O "/root/TubeCheck" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSou
 chmod +x "/root/TubeCheck"
 chmod 777 "/root/TubeCheck"
 blue "下载完成"
-bash "/root/TubeCheck"
+red "识别成无信息/NULL/未知等代表为默认的美国本土地区"
+"/root/TubeCheck"
 }
 
 #主菜单
