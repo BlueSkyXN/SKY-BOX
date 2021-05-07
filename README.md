@@ -34,6 +34,7 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 27. Route-trace 路由追踪测试
 28. YABS LINUX综合测试
 29. Disk Test 硬盘&系统综合测试
+
 210.TubeCheck Google/Youtube CDN分配节点测试
 --------------------------------------------------
 31. MTP&TLS 一键脚本
