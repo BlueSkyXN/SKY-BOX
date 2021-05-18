@@ -290,7 +290,7 @@ echo
 
 #宝塔面板 官方版·一键安装
 function btnew(){
-wget -O "/root/install.sh" "http://download.bt.cn/install/install_6.0.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/install.sh" "http://download.bt.cn/install/install_panel.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/install.sh"
 chmod 777 "/root/install.sh"
 blue "下载完成"
@@ -331,12 +331,17 @@ bash "/root/update7.sh"
 
 #莉塔面板·一键安装（安装后需要更新一下）
 function lt(){
-wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
+curl -sSO https://download.fenhao.me/install/install_panel.sh && bash install_panel.sh
 }
 
 #莉塔面板·一键更新（安装后需要更新一下）
 function lt-new(){
-curl https://download.fenhao.me/ltd/install/update6.sh|bash
+curl https://download.fenhao.me/install/update6.sh|bash
+}
+
+#莉塔面板·CentOS专用（安装后需要更新一下）
+function ltc(){
+wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
 }
 
 #宝塔面板 自动磁盘挂载工具
@@ -429,10 +434,10 @@ function start_menu(){
     green " 7. NEZHA.SH哪吒面板/探针·下载"
     yellow " --------------------------------------------------"
     green " 11. 获取本机IP"
-    green " 12. 安装最新BBR内核·使用YUM" 
+    green " 12. 安装最新BBR内核·使用YUM·仅支持CentOS" 
     green " 13. 启动BBR FQ算法"
     green " 14. 系统网络配置优化"
-    green " 15. Git 新版 安装"
+    green " 15. Git 新版 安装·仅支持CentOS"
     green " 16. 宝塔面板 自动磁盘挂载工具"
     green " 17. BBR管理脚本" 
     green " 18. SWAP一键安装/卸载脚本"
@@ -459,6 +464,7 @@ function start_menu(){
     green " 45. 宝塔面板 Hostcli 破解版·一键转移"
     green " 46. 莉塔面板·一键安装（安装后需要更新一下）"
     green " 47. 莉塔面板·一键更新（安装后需要更新一下）"
+    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）
     green " =================================================="
     green " 0. 退出脚本"
     echo
@@ -568,6 +574,9 @@ function start_menu(){
 	;;
 	47 )
            lt-new
+	;;
+	48 )
+           ltc
 	;;
         0 )
             exit 1
