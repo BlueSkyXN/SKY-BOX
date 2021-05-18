@@ -359,7 +359,7 @@ blue "你也可以输入 bash /root/yum-git.sh 来手动运行"
 bash "/root/yum-git.sh"
 }
 
-#BBR管理脚本
+#BBR一键管理脚本
 function tcpsh(){
 wget -O "/root/tcp.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/tcp.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/tcp.sh"
@@ -439,7 +439,7 @@ function start_menu(){
     green " 14. 系统网络配置优化"
     green " 15. Git 新版 安装·仅支持CentOS"
     green " 16. 宝塔面板 自动磁盘挂载工具"
-    green " 17. BBR管理脚本" 
+    green " 17. BBR一键管理脚本" 
     green " 18. SWAP一键安装/卸载脚本"
     yellow " --------------------------------------------------"
     green " 21. Superbench 综合测试"
@@ -460,11 +460,11 @@ function start_menu(){
     green " 41. 宝塔面板 官方版·一键安装"
     green " 42. 宝塔面板 官方版·一键更新"
     green " 43. 宝塔面板 5.9开源免费版·一键安装"
-    green " 44. 宝塔面板 Hostcli 破解版·一键安装"
+    green " 44. 宝塔面板 Hostcli 破解版·一键安装·可能仅支持CentOS"
     green " 45. 宝塔面板 Hostcli 破解版·一键转移"
     green " 46. 莉塔面板·一键安装（安装后需要更新一下）"
     green " 47. 莉塔面板·一键更新（安装后需要更新一下）"
-    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）
+    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）"
     green " =================================================="
     green " 0. 退出脚本"
     echo
