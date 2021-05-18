@@ -336,7 +336,7 @@ curl -sSO https://download.fenhao.me/install/install_panel.sh && bash install_pa
 
 #莉塔面板·一键更新（安装后需要更新一下）
 function lt-new(){
-curl https://download.fenhao.me/install/update6.sh|bash
+curl https://download.fenhao.me/ltd/install/update6.sh|bash
 }
 
 #莉塔面板·CentOS专用（安装后需要更新一下）
