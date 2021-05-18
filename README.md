@@ -1,5 +1,5 @@
 # SKY-BOX
-BlueSkyXN  综合工具箱 CentOS·YUM Supported ONLY
+BlueSkyXN  综合工具箱 Linux Supported ONLY
 
 # 详细说明
 https://www.blueskyxn.com/202104/4465.html
