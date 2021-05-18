@@ -5,7 +5,11 @@ BlueSkyXN  综合工具箱 Linux Supported ONLY
 https://www.blueskyxn.com/202104/4465.html
 
 ## 使用方法
+
 wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh
+
+<pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh</pre>
+
 
 # 功能表
 
