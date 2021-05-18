@@ -421,9 +421,10 @@ red "识别成无信息/NULL/未知等代表为默认的美国本土地区或者
 function start_menu(){
     clear
     red " BlueSkyXN  综合工具箱" 
-    red " CentOS·YUM Supported ONLY" 
+    red " BlueSkyXN 综合工具箱 Linux Supported ONLY" 
     green " FROM: https://github.com/BlueSkyXN/SKY-BOX "
     green " HELP: https://www.blueskyxn.com/202104/4465.html "
+    green " USE:  wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh "
     yellow " =================================================="
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"
