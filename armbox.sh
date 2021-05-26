@@ -432,7 +432,7 @@ function start_menu(){
     green " 4. Rclone&Fclone·下载【确认适配】" 
     green " 5. ChangeSource Linux换源脚本·下载"
     green " 6. Besttrace 路由追踪·下载【确认适配】"
-    green " 7. NEZHA.SH哪吒面板/探针·下载【确认适配】"
+    green " 7. NEZHA.SH哪吒面板/探针·下载【有毒，启动不了】"
     yellow " --------------------------------------------------"
     green " 11. 获取本机IP"
     green " 12. 安装最新BBR内核·使用YUM·仅支持CentOS" 
