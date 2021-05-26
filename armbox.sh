@@ -251,7 +251,7 @@ gcc -l stdc++ memtester.cpp
 
 #NEZHA.SH哪吒面板/探针·下载
 function nezha(){
-wget -O "/root/nezha.sh" "https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/nezha.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/nezhaarm.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/nezha.sh"
 chmod 777 "/root/nezha.sh"
 blue "你也可以输入 bash /root/nezha.sh 来手动运行"
@@ -429,10 +429,10 @@ function start_menu(){
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"
     green " 3. SpeedTest-Linux 下载【确认适配】"
-    green " 4. Rclone&Fclone·下载【已换源】" 
+    green " 4. Rclone&Fclone·下载【确认适配】" 
     green " 5. ChangeSource Linux换源脚本·下载"
-    green " 6. Besttrace 路由追踪·下载【已适配】"
-    green " 7. NEZHA.SH哪吒面板/探针·下载"
+    green " 6. Besttrace 路由追踪·下载【确认适配】"
+    green " 7. NEZHA.SH哪吒面板/探针·下载【确认适配】"
     yellow " --------------------------------------------------"
     green " 11. 获取本机IP"
     green " 12. 安装最新BBR内核·使用YUM·仅支持CentOS" 
