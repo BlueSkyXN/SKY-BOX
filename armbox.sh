@@ -36,7 +36,7 @@ blue "输入 bash /root/ipt.sh 来运行"
 
 #Speedtest for Linux·下载
 function speedtest-linux(){
-wget -O "/root/speedtest" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/speedtest" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/speedtest" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/speedtestarm" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/speedtest"
 chmod 777 "/root/speedtest"
 blue "下载完成"
@@ -204,7 +204,7 @@ green " bash changesource.sh restore 还原默认源 "
 
 #Besttrace 路由追踪·下载
 function gettrace(){
-wget -O "/root/besttrace" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/besttrace" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/besttrace" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/besttracearm" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/besttrace"
 chmod 777 "/root/besttrace"
 blue "下载完成"
@@ -420,17 +420,18 @@ red "识别成无信息/NULL/未知等代表为默认的美国本土地区或者
 #主菜单
 function start_menu(){
     clear
-    red " BlueSkyXN 综合工具箱 Linux Supported ONLY" 
+    red " BlueSkyXN 综合工具箱 ARM Beta"
+    red " 部分功能可能不行，请反馈，能用的已经标注" 
     green " FROM: https://github.com/BlueSkyXN/SKY-BOX "
     green " HELP: https://www.blueskyxn.com/202104/4465.html "
-    green " USE:  wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh "
+    green " USE:  wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh "
     yellow " =================================================="
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"
-    green " 3. SpeedTest-Linux 下载"
+    green " 3. SpeedTest-Linux 下载【已适配】"
     green " 4. Rclone&Fclone·下载" 
     green " 5. ChangeSource Linux换源脚本·下载"
-    green " 6. Besttrace 路由追踪·下载"
+    green " 6. Besttrace 路由追踪·下载【已适配】"
     green " 7. NEZHA.SH哪吒面板/探针·下载"
     yellow " --------------------------------------------------"
     green " 11. 获取本机IP"
@@ -462,9 +463,9 @@ function start_menu(){
     green " 43. 宝塔面板 5.9开源免费版·一键安装"
     green " 44. 宝塔面板 Hostcli 破解版·一键安装·可能仅支持CentOS"
     green " 45. 宝塔面板 Hostcli 破解版·一键转移"
-    green " 46. 莉塔面板·一键安装（安装后需要更新一下）"
-    green " 47. 莉塔面板·一键更新（安装后需要更新一下）"
-    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）"
+    green " 46. 莉塔面板·一键安装（安装后需要更新一下）【应该没问题】"
+    green " 47. 莉塔面板·一键更新（安装后需要更新一下）【已适配】"
+    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）【已适配】"
     green " =================================================="
     green " 0. 退出脚本"
     echo
