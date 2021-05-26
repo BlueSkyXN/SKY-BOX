@@ -174,10 +174,10 @@ blue "你也可以输入 bash /root/mt.sh 来手动运行"
 bash /root/mt.sh
 }
 
-#Rclone&Fclone·下载
+#Rclone官方原版&Fclone·下载
 function clonesh(){
-wget -O "/usr/bin/rclone" "https://raw.githubusercontent.com/BlueSkyXN/RcloneX/master/rclone" --no-check-certificate -T 30 -t 5 -d
-wget -O "/usr/bin/fclone" "https://raw.githubusercontent.com/BlueSkyXN/RcloneX/master/fclone" --no-check-certificate -T 30 -t 5 -d
+wget -O "/usr/bin/rclone" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/rclonearm" --no-check-certificate -T 30 -t 5 -d
+wget -O "/usr/bin/fclone" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/fclonearm" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/usr/bin/rclone"
 chmod +x "/usr/bin/fclone"
 chmod 777 "/usr/bin/rclone"
@@ -429,7 +429,7 @@ function start_menu(){
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"
     green " 3. SpeedTest-Linux 下载【已适配】"
-    green " 4. Rclone&Fclone·下载" 
+    green " 4. Rclone&Fclone·下载【已换源】" 
     green " 5. ChangeSource Linux换源脚本·下载"
     green " 6. Besttrace 路由追踪·下载【已适配】"
     green " 7. NEZHA.SH哪吒面板/探针·下载"
@@ -458,14 +458,15 @@ function start_menu(){
     green " 32. V2UI 一键脚本"
     green " 33. Aria2 最强安装与管理脚本"
     yellow " --------------------------------------------------"
+    red " 宝塔安装更新应该是没啥问题 "
     green " 41. 宝塔面板 官方版·一键安装"
     green " 42. 宝塔面板 官方版·一键更新"
     green " 43. 宝塔面板 5.9开源免费版·一键安装"
     green " 44. 宝塔面板 Hostcli 破解版·一键安装·可能仅支持CentOS"
     green " 45. 宝塔面板 Hostcli 破解版·一键转移"
-    green " 46. 莉塔面板·一键安装（安装后需要更新一下）【应该没问题】"
-    green " 47. 莉塔面板·一键更新（安装后需要更新一下）【已适配】"
-    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）【已适配】"
+    green " 46. 莉塔面板·一键安装（安装后需要更新一下）"
+    green " 47. 莉塔面板·一键更新（安装后需要更新一下）"
+    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）"
     green " =================================================="
     green " 0. 退出脚本"
     echo

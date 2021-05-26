@@ -174,7 +174,7 @@ blue "你也可以输入 bash /root/mt.sh 来手动运行"
 bash /root/mt.sh
 }
 
-#Rclone&Fclone·下载
+#Rclone世纪互联魔改版&Fclone·下载
 function clonesh(){
 wget -O "/usr/bin/rclone" "https://raw.githubusercontent.com/BlueSkyXN/RcloneX/master/rclone" --no-check-certificate -T 30 -t 5 -d
 wget -O "/usr/bin/fclone" "https://raw.githubusercontent.com/BlueSkyXN/RcloneX/master/fclone" --no-check-certificate -T 30 -t 5 -d
@@ -428,7 +428,7 @@ function start_menu(){
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"
     green " 3. SpeedTest-Linux 下载"
-    green " 4. Rclone&Fclone·下载" 
+    green " 4. Rclone世纪互联魔改版&Fclone·下载" 
     green " 5. ChangeSource Linux换源脚本·下载"
     green " 6. Besttrace 路由追踪·下载"
     green " 7. NEZHA.SH哪吒面板/探针·下载"
