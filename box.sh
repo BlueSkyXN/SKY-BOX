@@ -251,7 +251,7 @@ gcc -l stdc++ memtester.cpp
 
 #NEZHA.SH哪吒面板/探针·下载
 function nezha(){
-wget -O "/root/nezha.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/nezha.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/nezha.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/nezha.sh " --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/nezha.sh"
 chmod 777 "/root/nezha.sh"
 blue "你也可以输入 bash /root/nezha.sh 来手动运行"
@@ -338,7 +338,7 @@ bash "/root/update7.sh"
 
 #莉塔面板·一键安装（安装后需要更新一下）
 function lt(){
-curl -sSO https://download.fenhao.me/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
 }
 
 #莉塔面板·一键更新（安装后需要更新一下）
