@@ -208,7 +208,7 @@ wget -O "/root/besttrace" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSou
 chmod +x "/root/besttrace"
 chmod 777 "/root/besttrace"
 blue "下载完成"
-blue "输入 bash /root/besttrace 来运行"
+blue "输入 /root/besttrace 来运行"
 }
 
 #Lemonbench 综合测试
