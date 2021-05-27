@@ -258,12 +258,7 @@ blue "你也可以输入 bash /root/nezha.sh 来手动运行"
 blue "下载完成"
 bash "/root/nezha.sh"
 }
-function nezhanew(){
-curl -sSL https://raw.githubusercontent.com/naiba/nezha/master/script/fetch.sh | bash
-blue "你也可以输入 sudo /opt/nezha/nezha.sh 来手动运行"
-blue "下载完成"
-sudo "/opt/nezha/nezha.sh"
-}
+
 
 #Aria2 最强安装与管理脚本
 function aria(){
@@ -438,8 +433,7 @@ function start_menu(){
     green " 4. Rclone&Fclone·下载【确认适配】" 
     green " 5. ChangeSource Linux换源脚本·下载"
     green " 6. Besttrace 路由追踪·下载【确认适配】"
-    green " 7. NEZHA.SH哪吒面板/探针·经典【可能启动不了】"
-    green " 8. NEZHA.SH哪吒面板/探针·新版【确认适配】"
+    green " 7. NEZHA.SH哪吒面板/探针【确认适配】"
     yellow " --------------------------------------------------"
     green " 11. 获取本机IP"
     green " 12. 安装最新BBR内核·使用YUM·仅支持CentOS" 
@@ -499,9 +493,6 @@ function start_menu(){
 	;;
 	7 )
            nezha
-	;;
-	8 )
-           nezhanew
 	;;
 	11 )
            getip
