@@ -418,6 +418,18 @@ red "识别成无信息/NULL/未知等代表为默认的美国本土地区或者
 "/root/TubeCheck"
 }
 
+#甲骨文ARM U20 DD Debian 10 
+function armddd10(){
+red "默认密码blueskyxn"
+curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh
+red "默认密码blueskyxn"
+chmod a+rx debi.sh
+red "默认密码blueskyxn"
+./debi.sh --architecture arm64 --user root --password blueskyxn
+red "默认密码blueskyxn"
+shutdown -r now
+}
+
 #主菜单
 function start_menu(){
     clear
@@ -456,7 +468,7 @@ function start_menu(){
     green " 210.TubeCheck Google/Youtube CDN分配节点测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
-    green " 32. V2UI 一键脚本【确认不行】"
+    green " 32. V2UI 一键脚本"
     green " 33. Aria2 最强安装与管理脚本"
     yellow " --------------------------------------------------"
     red " 宝塔安装更新应该是没啥问题 "
@@ -469,6 +481,7 @@ function start_menu(){
     green " 47. 莉塔面板·一键更新（安装后需要更新一下）【确认适配】"
     green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）【确认适配】"
     green " =================================================="
+    green " 99. 甲骨文ARM U20 DD Debian 10"
     green " 0. 退出脚本"
     echo
     read -p "请输入数字:" menuNumberInput
@@ -581,6 +594,9 @@ function start_menu(){
 	48 )
            ltc
 	;;
+	99 )
+            armddd10
+        ;;
         0 )
             exit 1
         ;;
