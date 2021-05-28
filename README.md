@@ -19,36 +19,67 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 </details>
 
 # 功能表
+
 IPV.SH ipv4/6优先级调整一键脚本·下载
+
 IPT.SH iptable一键脚本
+
 SpeedTest-Linux 下载
+
 Rclone&Fclone·下载
+
 ChangeSource Linux换源脚本·下载
+
 Besttrace 路由追踪·下载
+
 NEZHA.SH哪吒面板/探针·下载
+
 获取本机IP
+
 安装最新BBR内核·使用YUM·仅支持CentOS
+
 启动BBR FQ算法
+
 系统网络配置优化
+
 Git 新版 安装·仅支持CentOS
+
 宝塔面板 自动磁盘挂载工具
+
 BBR一键管理脚本
+
 SWAP一键安装/卸载脚本
+
 Superbench 综合测试
+
 MT.SH 流媒体解锁测试
+
 Lemonbench 综合测试
+
 UNIXbench 综合测试
+
 三网Speedtest测速
+
 Memorytest 内存压力测试
+
 Route-trace 路由追踪测试
+
 YABS LINUX综合测试
+
 Disk Test 硬盘&系统综合测试
+
 TubeCheck Google/Youtube CDN分配节点测试
+
 MTP&TLS 一键脚本
+
 Rclone官方一键安装脚本
+
 Aria2 最强安装与管理脚本
+
 甲骨文ARM U20 DD Debian 10
+
 宝塔面板综合安装脚本
+
 
 ## 宝塔面板综合安装脚本
 宝塔面板 官方版 v7.5.2
