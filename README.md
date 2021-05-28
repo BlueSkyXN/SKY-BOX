@@ -20,6 +20,8 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 
 # 功能表
 
+<details><summary>功能表</summary>
+
 IPV.SH ipv4/6优先级调整一键脚本·下载
 
 IPT.SH iptable一键脚本
@@ -80,7 +82,8 @@ Aria2 最强安装与管理脚本
 
 宝塔面板综合安装脚本
 
-
+</details>
+  
 ## 宝塔面板综合安装脚本
 宝塔面板 官方版 v7.5.2
 CentOS
