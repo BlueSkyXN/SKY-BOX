@@ -1,6 +1,7 @@
 # SKY-BOX
 BlueSkyXN  综合工具箱 Linux Supported ONLY
 
+仅供个人非商用自用 版权/功能等问题请发issue
 # 详细说明
 https://www.blueskyxn.com/202104/4465.html
 
@@ -11,13 +12,13 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &
 <pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh</pre>
 
 ### ARM beta使用方法
-
+<details><summary>ARM beta使用方法</summary>
 wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh
 
 <pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh</pre>
-
+</details>
 # 功能表
-
+<details><summary>功能表</summary>
  1. IPV.SH ipv4/6优先级调整一键脚本·下载
  2. IPT.SH iptable一键脚本
  3. SpeedTest-Linux 下载
@@ -54,7 +55,9 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
  99. 甲骨文ARM U20 DD Debian 10
  00. 宝塔面板综合安装脚本
  --------------------------------------------------
+ </details>
 # 宝塔面板综合安装脚本
+<details><summary>宝塔面板综合安装脚本</summary>
 宝塔面板 官方版 v7.5.2
 11. CentOS
 12. Ubuntu&Deepin
@@ -68,3 +71,15 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 32. Ubuntu&Deepin
 33. Python3通用版
 34. 升级与更新
+</details>
+
+# 声明
+大部分功能非我原创，仅提供辅助调用其他作者的产品
+
+不提供/保证任何功能的可用性，安全性，有效性，合法性
+
+请确定你的用途符合 PRC(Mainland) USA 相关法律法规的要求和限制
+
+请确定你的用途符合 你当地和运行环境/设备的 相关法律法规的要求和限制
+
+## 外联作品参考
