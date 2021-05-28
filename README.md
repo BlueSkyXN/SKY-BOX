@@ -17,7 +17,6 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 
 <pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh</pre>
 </details>
-# 功能表
 <details><summary>功能表</summary>
  1. IPV.SH ipv4/6优先级调整一键脚本·下载
  2. IPT.SH iptable一键脚本
@@ -56,7 +55,6 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
  00. 宝塔面板综合安装脚本
  --------------------------------------------------
  </details>
-# 宝塔面板综合安装脚本
 <details><summary>宝塔面板综合安装脚本</summary>
 宝塔面板 官方版 v7.5.2
 11. CentOS
