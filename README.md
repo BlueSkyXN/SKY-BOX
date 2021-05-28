@@ -127,6 +127,8 @@ Python3通用版
 
 ## 外联作品列表
 <details><summary>外联作品列表</summary>
+外联作品包括但不限于
+
 Rclone魔改 https://hostloc.com/thread-612579-1-1.html
 
 Rclone https://rclone.org
@@ -183,9 +185,8 @@ Superspeed https://github.com/ernisn/superspeed
 
 其他没有说明的，均为找不着来源了，欢迎issue反馈
 <details><summary>失联作品列表</summary>
+失联作品包括但不限于
 swap.sh 
 
 changesource.sh
-
-未完待续
 </details>
