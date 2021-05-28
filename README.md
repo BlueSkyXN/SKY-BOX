@@ -129,6 +129,7 @@ Python3通用版
 <details><summary>外联作品列表</summary>
 外联作品包括但不限于
 
+
 Rclone魔改 https://hostloc.com/thread-612579-1-1.html
 
 Rclone https://rclone.org
@@ -190,3 +191,19 @@ swap.sh
 
 changesource.sh
 </details>
+
+## 编写规范和友情提醒
+
+不遵循任何规范，我就喜欢随意，反正自用能动就行
+
+基本操作：wget到root然后权限拉满
+
+如果你对规范要求较高，请自行修改/编写
+
+我不是大佬，也不是靠这个吃饭
+
+本作仅供个人非商用自用，0现金收入
+
+有问题看心情解决
+
+版权/功能等问题请发issue
