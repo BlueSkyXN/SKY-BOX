@@ -17,7 +17,8 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 
 <pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh</pre>
 </details>
-<details><summary>功能表</summary>
+
+# 功能表
  1. IPV.SH ipv4/6优先级调整一键脚本·下载
  2. IPT.SH iptable一键脚本
  3. SpeedTest-Linux 下载
@@ -53,9 +54,8 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
  --------------------------------------------------
  99. 甲骨文ARM U20 DD Debian 10
  00. 宝塔面板综合安装脚本
- --------------------------------------------------
- </details>
-<details><summary>宝塔面板综合安装脚本</summary>
+
+## 宝塔面板综合安装脚本
 宝塔面板 官方版 v7.5.2
 11. CentOS
 12. Ubuntu&Deepin
@@ -69,7 +69,6 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 32. Ubuntu&Deepin
 33. Python3通用版
 34. 升级与更新
-</details>
 
 # 声明
 大部分功能非我原创，部分功能仅提供辅助调用其他作者的产品
