@@ -281,69 +281,18 @@ blue "下载完成"
 bash "/root/mtp.sh"
 }
 
-#V2UI 一键脚本
-function v2ui(){
-echo
-red "根据相关法律法规，本脚本不提供直接安装"
-echo
-blue " 请自行输入 bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh) 来手动运行"
-echo
+#Rclone官方一键安装脚本
+function rc(){
+curl https://rclone.org/install.sh | sudo bash
 }
 
-#宝塔面板 官方版·一键安装
-function btnew(){
-wget -O "/root/install.sh" "http://download.bt.cn/install/install_panel.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/install.sh"
-chmod 777 "/root/install.sh"
+#宝塔面板综合安装脚本
+function btbox(){
+wget -O "/root/btbox.sh" "https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/btbox.sh" --no-check-certificate -T 30 -t 5 -d
+chmod +x "/root/btbox.sh"
+chmod 777 "/root/btbox.sh"
 blue "下载完成"
-bash "/root/install.sh"
-}
-
-#宝塔面板 官方版·一键更新
-function btrenew(){
-curl http://download.bt.cn/install/update6.sh|bash
-}
-
-#宝塔面板 5.9开源免费版·一键安装
-function btold(){
-wget -O "/root/install.sh" "http://download.bt.cn/install/install.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/install.sh"
-chmod 777 "/root/install.sh"
-blue "下载完成"
-bash "/root/install.sh"
-}
-
-#宝塔面板 Hostcli 破解版·一键安装
-function bthostcli(){
-wget -O "/root/install.sh" "http://download.hostcli.com/install/install_6.0.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/install.sh"
-chmod 777 "/root/install.sh"
-blue "下载完成"
-bash "/root/install.sh"
-}
-
-#宝塔面板 Hostcli 破解版·一键转移
-function bthostcli-new(){
-wget -O "/root/update7.sh" "http://download.hostcli.com/install/update7.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/update7.sh"
-chmod 777 "/root/update7.sh"
-blue "下载完成"
-bash "/root/update7.sh"
-}
-
-#莉塔面板·一键安装（安装后需要更新一下）
-function lt(){
-curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
-}
-
-#莉塔面板·一键更新（安装后需要更新一下）
-function lt-new(){
-curl https://download.fenhao.me/ltd/install/update6.sh|bash
-}
-
-#莉塔面板·CentOS专用（安装后需要更新一下）
-function ltc(){
-wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
+bash "/root/btbox.sh"
 }
 
 #宝塔面板 自动磁盘挂载工具
@@ -456,17 +405,10 @@ function start_menu(){
     green " 210.TubeCheck Google/Youtube CDN分配节点测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
-    green " 32. V2UI 一键脚本"
+    green " 32. Rclone官方一键安装脚本"
     green " 33. Aria2 最强安装与管理脚本"
     yellow " --------------------------------------------------"
-    green " 41. 宝塔面板 官方版·一键安装"
-    green " 42. 宝塔面板 官方版·一键更新"
-    green " 43. 宝塔面板 5.9开源免费版·一键安装"
-    green " 44. 宝塔面板 Hostcli 破解版·一键安装·可能仅支持CentOS"
-    green " 45. 宝塔面板 Hostcli 破解版·一键转移"
-    green " 46. 莉塔面板·一键安装（安装后需要更新一下）"
-    green " 47. 莉塔面板·一键更新（安装后需要更新一下）"
-    green " 48. 莉塔面板·CentOS专用（安装后需要更新一下）"
+    green " 00. 宝塔面板综合安装脚本"
     green " =================================================="
     green " 0. 退出脚本"
     echo
@@ -545,41 +487,20 @@ function start_menu(){
            disktestsh
 	;;
 	210 )
-	tubecheck
+	   tubecheck
 	;;
 	31 )
            mtp
 	;;
 	32 )
-           v2ui
+           rc
 	;;
         33 )
            aria
 	;;
-	41 )
-           btnew
-	;;
-	42 )
-           btrenew
-	;;
-	43 )
-           btold
-	;;
-	44 )
-           bthostcli
-	;;
-	45 )
-           bthostcli-new
-	;;
-	46 )
-           lt
-	;;
-	47 )
-           lt-new
-	;;
-	48 )
-           ltc
-	;;
+	00 )
+            btbox
+        ;;
         0 )
             exit 1
         ;;
