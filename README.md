@@ -1,8 +1,6 @@
 # SKY-BOX
-BlueSkyXN  综合工具箱 Linux Supported ONLY
+BlueSkyXN  综合工具箱 Linux Supported ONLY 仅供个人非商用自用 版权/功能等问题请发issue
 
-仅供个人非商用自用 版权/功能等问题请发issue
-# 详细说明
 https://www.blueskyxn.com/202104/4465.html
 
 ## 使用方法
