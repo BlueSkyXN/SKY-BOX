@@ -18,64 +18,52 @@ blue(){
 
 
 
-#宝塔面板 官方版·一键安装
-function btnew(){
-wget -O "/root/install.sh" "http://download.bt.cn/install/install_panel.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/install.sh"
-chmod 777 "/root/install.sh"
-blue "下载完成"
-bash "/root/install.sh"
+#宝塔面板 官方版  v7.5.2
+#一键安装
+#CentOS
+function btof1(){
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 }
-
-#宝塔面板 官方版·一键更新
-function btrenew(){
+#Ubuntu&Deepin
+function btof2(){
+wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
+}
+#Python3通用版
+function btof3(){
+curl -sSO http://download.bt.cn/install/install_panel.sh && bash install_panel.sh
+}
+#升级与更新
+function btof4(){
 curl http://download.bt.cn/install/update6.sh|bash
 }
 
-#宝塔面板 5.9开源免费版·一键安装
-function btold(){
-wget -O "/root/install.sh" "http://download.bt.cn/install/install.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/install.sh"
-chmod 777 "/root/install.sh"
-blue "下载完成"
-bash "/root/install.sh"
+#宝塔面板 Hostcli 净化版 v7.4.5
+#一键安装·Centos
+function btcli1(){
+yum install -y wget && wget -O install.sh http://download.hostcli.com/install/install_6.0.sh && sh install.sh
+}
+#一键转移/升级
+function btcli2(){
+wget -O /home/update7.sh http://download.hostcli.com/install/update7.sh && bash /home/update7.sh
 }
 
-#宝塔面板 Hostcli 破解版·一键安装
-function bthostcli(){
-wget -O "/root/install.sh" "http://download.hostcli.com/install/install_6.0.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/install.sh"
-chmod 777 "/root/install.sh"
-blue "下载完成"
-bash "/root/install.sh"
+#宝塔面板 Fenhao 开心版 v7.5.2
+#CentOS
+function btfh1(){
+yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
 }
-
-#宝塔面板 Hostcli 破解版·一键转移
-function bthostcli-new(){
-wget -O "/root/update7.sh" "http://download.hostcli.com/install/update7.sh" --no-check-certificate -T 30 -t 5 -d
-chmod +x "/root/update7.sh"
-chmod 777 "/root/update7.sh"
-blue "下载完成"
-bash "/root/update7.sh"
+#Ubuntu&Deepin
+function btfh2(){
+wget -O install.sh https://download.fenhao.me/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
 }
-
-#莉塔面板·一键安装（安装后需要更新一下）
-function lt(){
+#Python3通用版
+function btfh3(){
 curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
 }
-
-#莉塔面板·一键更新（安装后需要更新一下）
-function lt-new(){
-curl https://download.fenhao.me/ltd/install/update6.sh|bash
+#升级与更新
+function btfh4(){
+curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
 }
-
-#莉塔面板·CentOS专用（安装后需要更新一下）
-function ltc(){
-wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
-}
-
-
-
 
 #主菜单
 function start_menu(){
@@ -86,43 +74,54 @@ function start_menu(){
     green " HELP: https://www.blueskyxn.com/202104/4465.html "
     green " USE:  wget -O btbox.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/btbox.sh && chmod +x btbox.sh && clear && ./btbox.sh "
     yellow " =================================================="
-    green " 1. 宝塔面板 官方版·一键安装"
-    green " 2. 宝塔面板 官方版·一键更新"
-    green " 3. 宝塔面板 5.9开源免费版·一键安装"
-    green " 4. 宝塔面板 Hostcli 破解版·一键安装·可能仅支持CentOS"
-    green " 5. 宝塔面板 Hostcli 破解版·一键转移"
-    green " 6. 莉塔面板·一键安装（安装后需要更新一下）"
-    green " 7. 莉塔面板·一键更新（安装后需要更新一下）"
-    green " 8. 莉塔面板·CentOS专用（安装后需要更新一下）"
+    red "宝塔面板 官方版 v7.5.2"
+    green " 11. CentOS"
+    green " 12. Ubuntu&Deepin"
+    green " 13. Python3通用版"
+    green " 14. 升级与更新"
+    red "宝塔面板 Hostcli 净化版 v7.4.5"
+    green " 21. 一键安装·Centos"
+    green " 22. 一键转移/升级"
+    red "宝塔面板 Fenhao 开心版 v7.5.2"
+    green " 31. CentOS"
+    green " 32. Ubuntu&Deepin"
+    green " 33. Python3通用版"
+    green " 34. 升级与更新"
     green " =================================================="
     green " 0. 退出脚本"
     echo
     read -p "请输入数字:" menuNumberInput
     case "$menuNumberInput" in
 
-	1 )
-           btnew
+	11 )
+           btof1
 	;;
-	2 )
-           btrenew
+	12 )
+           btof2
 	;;
-	3 )
-           btold
+	13 )
+           btof3
 	;;
-	4 )
-           bthostcli
+	14 )
+           btof4
 	;;
-	5 )
-           bthostcli-new
+	21 )
+           btcli1
 	;;
-	6 )
-           lt
+	22 )
+           btcli2
 	;;
-	7 )
-           lt-new
+	31 )
+           btfh1
 	;;
-	8 )
-           ltc
+	32 )
+           btfh2
+	;;
+	33 )
+           btfh3
+	;;
+	34 )
+           btfh4
 	;;
         0 )
             exit 1
