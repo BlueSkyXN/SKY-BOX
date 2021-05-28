@@ -128,27 +128,57 @@ Python3通用版
 ## 外联作品列表
 <details><summary>外联作品列表</summary>
 Rclone魔改 https://hostloc.com/thread-612579-1-1.html
+
 Rclone https://rclone.org
+
 Fclone https://github.com/mawaya/rclone
+
 宝塔 https://www.bt.cn
+
 HostCli https://www.hostcli.com
+
 Fenhao https://fenhao.me
+
 Aria2 https://github.com/P3TERX/aria2.sh
+
 Fio-bench https://github.com/amefs/fio-bench
+
 DiskTest https://github.com/Aniverse/A
+
 TubeCheck https://github.com/sjlleo/TubeCheck
+
 Nezha https://github.com/naiba/nezha
+
 Unixbench https://teddysun.com/245.html
+
 IPT https://github.com/arloor/iptablesUtils
+
 MT https://github.com/CoiaPrant/MediaUnlock_Test
+
 Besttrace https://www.ipip.net
+
 BBR管理脚本/TCPSH https://blog.ylx.me/archives/783.html
+
 YABS https://github.com/masonr/yet-another-bench-script
+
 SuperBench https://www.oldking.net/350.html
+
 Route-trace https://github.com/BlueSkyXN/Route-trace
+
 YUM-GIT https://github.com/BlueSkyXN/Yum-Git
+
 BBRSH https://github.com/BlueSkyXN/ChangeSource/blob/master/bbr.sh
+
 IPV https://github.com/BlueSkyXN/ChangeSource/blob/master/ipv.sh
+
+Debian Network Reinstall https://github.com/bohanyang/debi
+
+MTPTLS https://github.com/sunpma/mtp
+
+Memorytest https://github.com/FunctionClub/Memtester
+
+Superspeed https://github.com/ernisn/superspeed
+
 </details>
 
 其他没有说明的，均为找不着来源了，欢迎issue反馈
@@ -156,4 +186,6 @@ IPV https://github.com/BlueSkyXN/ChangeSource/blob/master/ipv.sh
 swap.sh 
 
 changesource.sh
+
+未完待续
 </details>
