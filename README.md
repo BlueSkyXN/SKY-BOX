@@ -85,20 +85,35 @@ Aria2 最强安装与管理脚本
 </details>
   
 ## 宝塔面板综合安装脚本
+<details><summary>宝塔面板综合安装脚本</summary>
+  
 宝塔面板 官方版 v7.5.2
+
 CentOS
+
 Ubuntu&Deepin
+
 Python3通用版
-升级与更新
-宝塔面板 Hostcli 净化版 v7.4.5
-一键安装·Centos
-一键转移/升级
-宝塔面板 Fenhao 开心版 v7.5.2
-CentOS
-Ubuntu&Deepin
-Python3通用版
+
 升级与更新
 
+宝塔面板 Hostcli 净化版 v7.4.5
+
+一键安装·Centos
+
+一键转移/升级
+
+宝塔面板 Fenhao 开心版 v7.5.2
+
+CentOS
+
+Ubuntu&Deepin
+
+Python3通用版
+
+升级与更新
+
+</details>
 # 声明
 大部分功能非我原创，部分功能仅提供辅助调用其他作者的产品
 
