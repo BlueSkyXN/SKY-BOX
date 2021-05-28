@@ -74,7 +74,7 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 </details>
 
 # 声明
-大部分功能非我原创，仅提供辅助调用其他作者的产品
+大部分功能非我原创，部分功能仅提供辅助调用其他作者的产品
 
 不提供/保证任何功能的可用性，安全性，有效性，合法性
 
@@ -82,4 +82,35 @@ wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.s
 
 请确定你的用途符合 你当地和运行环境/设备的 相关法律法规的要求和限制
 
-## 外联作品参考
+## 外联作品列表
+<details><summary>外联作品列表</summary>
+Rclone魔改 https://hostloc.com/thread-612579-1-1.html
+Rclone https://rclone.org
+Fclone https://github.com/mawaya/rclone
+宝塔 https://www.bt.cn
+HostCli https://www.hostcli.com
+Fenhao https://fenhao.me
+Aria2 https://github.com/P3TERX/aria2.sh
+Fio-bench https://github.com/amefs/fio-bench
+DiskTest https://github.com/Aniverse/A
+TubeCheck https://github.com/sjlleo/TubeCheck
+Nezha https://github.com/naiba/nezha
+Unixbench https://teddysun.com/245.html
+IPT https://github.com/arloor/iptablesUtils
+MT https://github.com/CoiaPrant/MediaUnlock_Test
+Besttrace https://www.ipip.net
+BBR管理脚本/TCPSH https://blog.ylx.me/archives/783.html
+YABS https://github.com/masonr/yet-another-bench-script
+SuperBench https://www.oldking.net/350.html
+Route-trace https://github.com/BlueSkyXN/Route-trace
+YUM-GIT https://github.com/BlueSkyXN/Yum-Git
+BBRSH https://github.com/BlueSkyXN/ChangeSource/blob/master/bbr.sh
+IPV https://github.com/BlueSkyXN/ChangeSource/blob/master/ipv.sh
+</details>
+
+其他没有说明的，均为找不着来源了，欢迎issue反馈
+<details><summary>失联作品列表</summary>
+swap.sh 
+
+changesource.sh
+</details>
