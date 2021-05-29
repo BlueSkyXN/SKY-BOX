@@ -2,6 +2,7 @@
 BlueSkyXN  综合工具箱 Linux Supported ONLY 仅供个人非商用自用 版权/功能等问题请发issue
 
 https://www.blueskyxn.com/202104/4465.html
+https://www.blueskyxn.com/202105/4585.html
 
 ## 使用方法
 
