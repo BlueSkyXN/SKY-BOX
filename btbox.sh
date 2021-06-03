@@ -64,6 +64,14 @@ curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash instal
 function btfh4(){
 curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
 }
+#ARM 定制版
+function btfh5(){
+curl -sSO https://download.seele.wang/ltd/install/arm/install_panel.sh && bash install_panel.sh
+}
+#升级与更新ARM定制版
+function btfh6(){
+wget -O updatearm.sh https://download.seele.wang/ltd/install/arm/updatearm.sh && bash updatearm.sh
+}
 
 #主菜单
 function start_menu(){
@@ -87,6 +95,8 @@ function start_menu(){
     green " 32. Ubuntu&Deepin"
     green " 33. Python3通用版"
     green " 34. 升级与更新"
+    green " 35. ARM 定制版"
+    green " 35. 升级与更新ARM定制版【请先卸载NGINX等运行环境和全部插件】"
     green " =================================================="
     green " 0. 退出脚本"
     echo
@@ -122,6 +132,12 @@ function start_menu(){
 	;;
 	34 )
            btfh4
+	;;
+	35 )
+           btfh5
+	;;
+	36 )
+           btfh6
 	;;
         0 )
             exit 1
