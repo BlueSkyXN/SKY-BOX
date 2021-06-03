@@ -379,6 +379,11 @@ red "默认密码blueskyxn"
 shutdown -r now
 }
 
+#RegionRestrictionCheck 流媒体解锁测试
+function RegionRestrictionCheck(){
+bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+}
+
 #主菜单
 function start_menu(){
     clear
@@ -415,6 +420,7 @@ function start_menu(){
     green " 28. YABS LINUX综合测试"
     green " 29. Disk Test 硬盘&系统综合测试"
     green " 210.TubeCheck Google/Youtube CDN分配节点测试"
+    green " 211.RegionRestrictionCheck 流媒体解锁测试"
     yellow " --------------------------------------------------"
     green " 31. MTP&TLS 一键脚本"
     green " 32. Rclone官方一键安装脚本"
@@ -501,6 +507,9 @@ function start_menu(){
 	;;
 	210 )
 	   tubecheck
+	;;
+	211 )
+	   RegionRestrictionCheck
 	;;
 	31 )
            mtp
