@@ -373,6 +373,13 @@ function RegionRestrictionCheck(){
 bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
 }
 
+#F2B一键安装脚本
+function f2bsh(){
+red "卸载请 运行 wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/uninstall.sh && bash uninstall.sh"
+wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
+red "卸载请 运行 wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/uninstall.sh && bash uninstall.sh"
+}
+
 #主菜单
 function start_menu(){
     clear
@@ -397,6 +404,7 @@ function start_menu(){
     green " 16. 宝塔面板 自动磁盘挂载工具"
     green " 17. BBR一键管理脚本" 
     green " 18. SWAP一键安装/卸载脚本"
+    green " 19. F2B一键安装脚本"
     yellow " --------------------------------------------------"
     green " 21. Superbench 综合测试"
     green " 22. MT.SH 流媒体解锁测试"
@@ -464,6 +472,9 @@ function start_menu(){
 	;;
 	18 )
            swapsh
+	;;
+	19 )
+           f2bsh
 	;;
 	21 )
            superbench
