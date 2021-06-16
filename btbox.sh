@@ -96,7 +96,7 @@ function start_menu(){
     green " 33. Python3通用版"
     green " 34. 升级与更新"
     green " 35. ARM 定制版"
-    green " 35. 升级与更新ARM定制版【请先卸载NGINX等运行环境和全部插件】"
+    green " 36. 升级与更新ARM定制版【请先卸载NGINX等运行环境和全部插件】"
     green " =================================================="
     green " 0. 退出脚本"
     echo
