@@ -54,15 +54,15 @@ yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install
 }
 #Ubuntu&Deepin
 function btfh2(){
-wget -O install.sh https://download.fenhao.me/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
+wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
 }
 #Python3通用版
 function btfh3(){
-curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/install_panel.sh && bash install_panel.sh
 }
 #升级与更新
 function btfh4(){
-curl -sSO https://download.fenhao.me/ltd/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/install_panel.sh && bash install_panel.sh
 }
 #ARM 定制版
 function btfh5(){
