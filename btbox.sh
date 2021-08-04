@@ -54,7 +54,7 @@ yum install -y wget && wget -O install.sh https://download.seele.wang/ltd/instal
 }
 
 #CentOS-old
-function btfh1(){
+function btfh1b(){
 yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
 }
 
