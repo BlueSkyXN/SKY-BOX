@@ -50,8 +50,14 @@ wget -O /home/update7.sh http://download.hostcli.com/install/update7.sh && bash 
 #宝塔面板 Fenhao 开心版 v7.5.2
 #CentOS
 function btfh1(){
+yum install -y wget && wget -O install.sh https://download.seele.wang/ltd/install/install_6.0.sh && sh install.sh
+}
+
+#CentOS-old
+function btfh1(){
 yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
 }
+
 #Ubuntu&Deepin
 function btfh2(){
 wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
