@@ -40,43 +40,43 @@ curl http://download.bt.cn/install/update6.sh|bash
 #宝塔面板 Hostcli 净化版 v7.4.5
 #一键安装·Centos
 function btcli1(){
-yum install -y wget && wget -O install.sh http://download.hostcli.com/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh http://download.hostcli.com/install/install_6.0.sh --no-check-certificate && sh install.sh
 }
 #一键转移/升级
 function btcli2(){
-wget -O /home/update7.sh http://download.hostcli.com/install/update7.sh && bash /home/update7.sh
+wget -O /home/update7.sh http://download.hostcli.com/install/update7.sh --no-check-certificate && bash /home/update7.sh
 }
 
 #宝塔面板 Fenhao 开心版 v7.5.2
 #CentOS
 function btfh1(){
-yum install -y wget && wget -O install.sh https://download.seele.wang/ltd/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh https://download.seele.wang/ltd/install/install_6.0.sh --no-check-certificate && sh install.sh
 }
 
 #CentOS-old
 function btfh1b(){
-yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh --no-check-certificate && sh install.sh
 }
 
 #Ubuntu&Deepin
 function btfh2(){
-wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
+wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh --no-check-certificate && sudo bash install.sh
 }
 #Python3通用版
 function btfh3(){
-curl -sSO https://download.seele.wang/ltd/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/install_panel.sh --no-check-certificate && bash install_panel.sh
 }
 #升级与更新
 function btfh4(){
-curl -sSO https://download.seele.wang/ltd/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/install_panel.sh --no-check-certificate && bash install_panel.sh
 }
 #ARM 定制版
 function btfh5(){
-curl -sSO https://download.seele.wang/ltd/install/arm/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/arm/install_panel.sh --no-check-certificate && bash install_panel.sh
 }
 #升级与更新ARM定制版
 function btfh6(){
-wget -O updatearm.sh https://download.seele.wang/ltd/install/arm/updatearm.sh && bash updatearm.sh
+wget -O updatearm.sh https://download.seele.wang/ltd/install/arm/updatearm.sh --no-check-certificate && bash updatearm.sh
 }
 
 #主菜单
