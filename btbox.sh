@@ -18,7 +18,7 @@ blue(){
 
 
 
-#宝塔面板 官方版  v7.5.2
+#宝塔面板 官方版
 #一键安装
 #CentOS
 function btof1(){
@@ -92,16 +92,16 @@ function start_menu(){
     green " HELP: https://www.blueskyxn.com/202104/4465.html "
     green " USE:  wget -O btbox.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/btbox.sh && chmod +x btbox.sh && clear && ./btbox.sh "
     yellow " =================================================="
-    red "宝塔面板 官方版 v7.5.2"
+    red "宝塔面板 官方版 v7.6.0"
     green " 11. CentOS"
     green " 12. Ubuntu&Deepin"
     green " 13. Python3通用版"
     green " 14. 升级与更新"
-    red "宝塔面板 Hostcli 净化版 v7.4.5"
+    red "宝塔面板 Hostcli 净化版 v7.6.0"
     green " 21. Centos"
     green " 22. Ubuntu&Deepin"
     green " 23. 一键转移/升级"
-    red "宝塔面板 Fenhao 开心版 v7.5.2"
+    red "宝塔面板 Fenhao 开心版 v7.6.0"
     green " 31. CentOS"
     green " 32. Ubuntu&Deepin"
     green " 33. Python3通用版"
