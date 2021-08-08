@@ -37,17 +37,21 @@ function btof4(){
 curl http://download.bt.cn/install/update6.sh|bash
 }
 
-#宝塔面板 Hostcli 净化版 v7.4.5
-#一键安装·Centos
+#宝塔面板 Hostcli 净化版 v7.6.0
+#Centos
 function btcli1(){
-yum install -y wget && wget -O install.sh http://download.hostcli.com/install/install_6.0.sh --no-check-certificate && sh install.sh
+yum install -y wget && wget -O install.sh http://v7.hostcli.com/install/install_6.0.sh --no-check-certificate && sh install.sh
+}
+#Ubuntu&Deepin
+function btcli2(){
+wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh --no-check-certificate && sudo bash install.sh
 }
 #一键转移/升级
-function btcli2(){
-wget -O /home/update7.sh http://download.hostcli.com/install/update7.sh --no-check-certificate && bash /home/update7.sh
+function btcli3(){
+curl http://v7.hostcli.com/install/update6.sh|bash
 }
 
-#宝塔面板 Fenhao 开心版 v7.5.2
+#宝塔面板 Fenhao 开心版 v7.6.0
 #CentOS
 function btfh1(){
 yum install -y wget && wget -O install.sh https://download.seele.wang/ltd/install/install_6.0.sh --no-check-certificate && sh install.sh
@@ -94,8 +98,9 @@ function start_menu(){
     green " 13. Python3通用版"
     green " 14. 升级与更新"
     red "宝塔面板 Hostcli 净化版 v7.4.5"
-    green " 21. 一键安装·Centos"
-    green " 22. 一键转移/升级"
+    green " 21. Centos"
+    green " 22. Ubuntu&Deepin"
+    green " 23. 一键转移/升级"
     red "宝塔面板 Fenhao 开心版 v7.5.2"
     green " 31. CentOS"
     green " 32. Ubuntu&Deepin"
@@ -126,6 +131,9 @@ function start_menu(){
 	;;
 	22 )
            btcli2
+	;;
+	23 )
+           btcli3
 	;;
 	31 )
            btfh1
