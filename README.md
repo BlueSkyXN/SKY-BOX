@@ -8,15 +8,11 @@ https://www.blueskyxn.com/202105/4585.html
 
 ## 使用方法
 
-wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh
-
-<pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh</pre>
+<pre>wget -O box.sh https://cdn.jsdelivr.net/gh//BlueSkyXN/SKY-BOX@main/box.sh && chmod +x box.sh && clear && ./box.sh</pre>
 
 ### ARM beta使用方法
 <details><summary>ARM beta使用方法</summary>
-wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh
-
-<pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh</pre>
+<pre>wget -O box.sh https://cdn.jsdelivr.net/gh//BlueSkyXN/SKY-BOX@main/armbox.sh && chmod +x box.sh && clear && ./box.sh</pre>
 </details>
 
 # 功能表
