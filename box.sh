@@ -18,7 +18,7 @@ blue(){
 
 #IPV.SH ipv4/6优先级调整一键脚本·下载
 function ipvsh(){
-wget -O "/root/ipv.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/ipv.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/ipv.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/ipv.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/ipv.sh"
 chmod 777 "/root/ipv.sh"
 blue "下载完成"
@@ -27,7 +27,7 @@ blue "输入 bash /root/ipv.sh 来运行"
 
 #IPT.SH iptable一键脚本·下载
 function iptsh(){
-wget -O "/root/ipt.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/ipt.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/ipt.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/ipt.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/ipt.sh"
 chmod 777 "/root/ipt.sh"
 blue "下载完成"
@@ -36,7 +36,7 @@ blue "输入 bash /root/ipt.sh 来运行"
 
 #Speedtest for Linux·下载
 function speedtest-linux(){
-wget -O "/root/speedtest" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/speedtest" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/speedtest" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/speedtest" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/speedtest"
 chmod 777 "/root/speedtest"
 blue "下载完成"
@@ -53,7 +53,7 @@ echo
 
 #安装最新BBR内核·使用YUM
 function bbrnew(){
-wget -O "/root/bbr.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/bbr.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/bbr.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/bbr.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/bbr.sh"
 chmod 777 "/root/bbr.sh"
 blue "下载完成，开始运行"
@@ -166,7 +166,7 @@ function mtsh(){
 	exit;
         fi
 
-wget -O "/root/mt.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/mt.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/mt.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/mt.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/mt.sh"
 chmod 777 "/root/mt.sh"
 blue "下载完成"
@@ -176,8 +176,8 @@ bash /root/mt.sh
 
 #Rclone版&Fclone·下载
 function clonesh(){
-wget -O "/usr/bin/rclone" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/rcloneamd" --no-check-certificate -T 30 -t 5 -d
-wget -O "/usr/bin/fclone" "https://raw.githubusercontent.com/BlueSkyXN/RcloneX/master/fclone" --no-check-certificate -T 30 -t 5 -d
+wget -O "/usr/bin/rclone" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/rcloneamd" --no-check-certificate -T 30 -t 5 -d
+wget -O "/usr/bin/fclone" "https://cdn.jsdelivr.net/gh/BlueSkyXN/RcloneX@master/fclone" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/usr/bin/rclone"
 chmod +x "/usr/bin/fclone"
 chmod 777 "/usr/bin/rclone"
@@ -186,7 +186,7 @@ chmod 777 "/usr/bin/fclone"
 
 #ChangeSource Linux换源脚本·下载
 function cssh(){
-wget -O "/root/changesource.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/changesource.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/changesource.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/changesource.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/changesource.sh"
 chmod 777 "/root/changesource.sh"
 blue "下载完成"
@@ -204,7 +204,7 @@ green " bash changesource.sh restore 还原默认源 "
 
 #Besttrace 路由追踪·下载
 function gettrace(){
-wget -O "/root/besttrace" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/besttrace" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/besttrace" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/besttrace" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/besttrace"
 chmod 777 "/root/besttrace"
 blue "下载完成"
@@ -218,7 +218,7 @@ curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
 
 #UNIXbench 综合测试
 function UNIXbench(){
-wget -O "/root/unixbench.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/unixbench.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/unixbench.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/unixbench.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/unixbench.sh"
 chmod 777 "/root/unixbench.sh"
 blue "下载完成"
@@ -232,7 +232,7 @@ bash <(curl -Lso- https://git.io/superspeed)
 
 #Superbench 综合测试
 function superbench(){
-wget -O "/root/superbench.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/superbench.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/superbench.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/superbench.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/superbench.sh"
 chmod 777 "/root/superbench.sh"
 blue "下载完成"
@@ -243,7 +243,7 @@ bash "/root/superbench.sh"
 function memorytest(){
 yum install wget -y
 yum groupinstall "Development Tools" -y
-wget https://raw.githubusercontent.com/FunctionClub/Memtester/master/memtester.cpp
+wget https://cdn.jsdelivr.net/gh/FunctionClub/Memtester@master/memtester.cpp
 blue "下载完成"
 gcc -l stdc++ memtester.cpp
 ./a.out
@@ -251,7 +251,7 @@ gcc -l stdc++ memtester.cpp
 
 #NEZHA.SH哪吒面板/探针·下载
 function nezha(){
-wget -O "/root/nezha.sh" "https://raw.githubusercontent.com/BlueSkyXN/nezha/master/script/install.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/nezha.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/nezha@master/script/install.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/nezha.sh"
 chmod 777 "/root/nezha.sh"
 blue "你也可以输入 bash /root/nezha.sh 来手动运行"
@@ -263,7 +263,7 @@ bash "/root/nezha.sh"
 
 #Aria2 最强安装与管理脚本
 function aria(){
-wget -O "/root/aria2.sh" "https://raw.githubusercontent.com/P3TERX/aria2.sh/master/aria2.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/aria2.sh" "https://cdn.jsdelivr.net/gh/P3TERX/aria2.sh@master/aria2.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/aria2.sh"
 chmod 777 "/root/aria2.sh"
 blue "你也可以输入 bash /root/aria2.sh 来手动运行"
@@ -273,7 +273,7 @@ bash "/root/aria2.sh"
 
 #MTP&TLS 一键脚本
 function mtp(){
-wget -O "/root/mtp.sh" "https://raw.githubusercontent.com/sunpma/mtp/master/mtproxy.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/mtp.sh" "https://cdn.jsdelivr.net/gh/sunpma/mtp@master/mtproxy.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/mtp.sh"
 chmod 777 "/root/mtp.sh"
 blue "你也可以输入 bash /root/mtp.sh 来手动运行"
@@ -288,7 +288,7 @@ curl https://rclone.org/install.sh | sudo bash
 
 #宝塔面板综合安装脚本
 function btbox(){
-wget -O "/root/btbox.sh" "https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/btbox.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/btbox.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/SKY-BOX@main/btbox.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/btbox.sh"
 chmod 777 "/root/btbox.sh"
 blue "下载完成"
@@ -302,7 +302,7 @@ wget -O auto_disk.sh http://download.bt.cn/tools/auto_disk.sh && bash auto_disk.
 
 #Git 新版 安装
 function yumgitsh(){
-wget -O "/root/yum-git.sh" "https://raw.githubusercontent.com/BlueSkyXN/Yum-Git/main/yum-git.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/yum-git.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git@main/yum-git.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/yum-git.sh"
 chmod 777 "/root/yum-git.sh"
 blue "下载完成"
@@ -312,7 +312,7 @@ bash "/root/yum-git.sh"
 
 #BBR一键管理脚本
 function tcpsh(){
-wget -O "/root/tcp.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/tcp.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/tcp.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/tcp.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/tcp.sh"
 chmod 777 "/root/tcp.sh"
 blue "下载完成"
@@ -322,7 +322,7 @@ bash "/root/tcp.sh"
 
 #SWAP一键安装/卸载脚本
 function swapsh(){
-wget -O "/root/swap.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/swap.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/swap.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/swap.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/swap.sh"
 chmod 777 "/root/swap.sh"
 blue "下载完成"
@@ -332,7 +332,7 @@ bash "/root/swap.sh"
 
 #Route-trace 路由追踪测试
 function rtsh(){
-wget -O "/root/rt.sh" "https://raw.githubusercontent.com/BlueSkyXN/Route-trace/main/rt.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/rt.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/Route-trace@main/rt.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/rt.sh"
 chmod 777 "/root/rt.sh"
 blue "下载完成"
@@ -342,7 +342,7 @@ bash "/root/rt.sh"
 
 #Yabs.sh测试
 function yabssh(){
-wget -O "/root/yabs.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/yabs.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/yabs.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/yabs.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/yabs.sh"
 chmod 777 "/root/yabs.sh"
 blue "下载完成"
@@ -351,7 +351,7 @@ bash "/root/yabs.sh"
 
 #Disk Test 硬盘&系统综合测试
 function disktestsh(){
-wget -O "/root/disktest.sh" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/disktest.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/disktest.sh" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/disktest.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/disktest.sh"
 chmod 777 "/root/disktest.sh"
 blue "下载完成"
@@ -360,7 +360,7 @@ bash "/root/disktest.sh"
 
 #TubeCheck Google/Youtube CDN分配节点测试
 function tubecheck(){
-wget -O "/root/TubeCheck" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/TubeCheck" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/TubeCheck" "https://cdn.jsdelivr.net/gh/BlueSkyXN/ChangeSource@master/TubeCheck" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/TubeCheck"
 chmod 777 "/root/TubeCheck"
 blue "下载完成"
@@ -370,14 +370,14 @@ red "识别成无信息/NULL/未知等代表为默认的美国本土地区或者
 
 #RegionRestrictionCheck 流媒体解锁测试
 function RegionRestrictionCheck(){
-bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+bash <(curl -L -s https://cdn.jsdelivr.net/gh/lmc999/RegionRestrictionCheck@main/check.sh)
 }
 
 #F2B一键安装脚本
 function f2bsh(){
-red "卸载请 运行 wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/uninstall.sh && bash uninstall.sh"
-wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
-red "卸载请 运行 wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/uninstall.sh && bash uninstall.sh"
+red "卸载请 运行 wget https://cdn.jsdelivr.net/gh/FunctionClub/Fail2ban@master/uninstall.sh && bash uninstall.sh"
+wget https://cdn.jsdelivr.net/gh/FunctionClub/Fail2ban@master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
+red "卸载请 运行 wget https://cdn.jsdelivr.net/gh/FunctionClub/Fail2ban@master/uninstall.sh && bash uninstall.sh"
 }
 
 #主菜单
@@ -386,7 +386,7 @@ function start_menu(){
     red " BlueSkyXN 综合工具箱 Linux Supported ONLY" 
     green " FROM: https://github.com/BlueSkyXN/SKY-BOX "
     green " HELP: https://www.blueskyxn.com/202104/4465.html "
-    green " USE:  wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh "
+    green " USE:  wget -O box.sh https://cdn.jsdelivr.net/gh/BlueSkyXN/SKY-BOX@main/box.sh && chmod +x box.sh && clear && ./box.sh "
     yellow " =================================================="
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
     green " 2. IPT.SH iptable一键脚本"

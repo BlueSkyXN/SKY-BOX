@@ -90,7 +90,7 @@ function start_menu(){
     red " 宝塔面板综合安装脚本合集" 
     green " FROM: https://github.com/BlueSkyXN/SKY-BOX "
     green " HELP: https://www.blueskyxn.com/202104/4465.html "
-    green " USE:  wget -O btbox.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/btbox.sh && chmod +x btbox.sh && clear && ./btbox.sh "
+    green " USE:  wget -O btbox.sh https://cdn.jsdelivr.net/gh/BlueSkyXN/SKY-BOX@main/btbox.sh && chmod +x btbox.sh && clear && ./btbox.sh "
     yellow " =================================================="
     red "宝塔面板 官方版 v7.6.0"
     green " 11. CentOS"
