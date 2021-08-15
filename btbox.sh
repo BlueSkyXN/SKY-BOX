@@ -68,15 +68,15 @@ wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh
 }
 #Python3通用版
 function btfh3(){
-curl -sSO https://download.seele.wang/ltd/install/install_panel.sh --no-check-certificate && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/install_panel.sh -k && bash install_panel.sh
 }
 #升级与更新
 function btfh4(){
-curl -sSO https://download.seele.wang/ltd/install/install_panel.sh --no-check-certificate && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/install_panel.sh -k && bash install_panel.sh
 }
 #ARM 定制版
 function btfh5(){
-curl -sSO https://download.seele.wang/ltd/install/arm/install_panel.sh --no-check-certificate && bash install_panel.sh
+curl -sSO https://download.seele.wang/ltd/install/arm/install_panel.sh -k && bash install_panel.sh
 }
 #升级与更新ARM定制版
 function btfh6(){
@@ -101,7 +101,7 @@ function start_menu(){
     green " 21. Centos"
     green " 22. Ubuntu&Deepin"
     green " 23. 一键转移/升级"
-    red "宝塔面板 Fenhao 开心版 v7.6.0"
+    red "宝塔面板 Fenhao 开心版 v7.6.0 还在咕咕咕可能不能用"
     green " 31. CentOS"
     green " 32. Ubuntu&Deepin"
     green " 33. Python3通用版"
