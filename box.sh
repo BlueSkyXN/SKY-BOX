@@ -227,7 +227,7 @@ bash "/root/unixbench.sh"
 
 #三网Speedtest测速
 function 3speed(){
-bash <(curl -Lso- https://git.io/superspeed)
+bash <(curl -Lso- https://raw.githubusercontent.com/BlueSkyXN/SpeedTestCN/main/superspeed.sh)
 }
 
 #Superbench 综合测试
