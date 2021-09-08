@@ -24,7 +24,7 @@ blue(){
 function btof1(){
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 }
-#Ubuntu&Deepin
+#Ubuntu&Debian
 function btof2(){
 wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
 }
@@ -42,7 +42,7 @@ curl http://download.bt.cn/install/update6.sh|bash
 function btcli1(){
 yum install -y wget && wget -O install.sh http://v7.hostcli.com/install/install_6.0.sh --no-check-certificate && sh install.sh
 }
-#Ubuntu&Deepin
+#Ubuntu&Debian
 function btcli2(){
 wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh --no-check-certificate && sudo bash install.sh
 }
@@ -62,7 +62,7 @@ function btfh1b(){
 yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh --no-check-certificate && sh install.sh
 }
 
-#Ubuntu&Deepin
+#Ubuntu&Debian
 function btfh2(){
 wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh --no-check-certificate && sudo bash install.sh
 }
@@ -94,16 +94,16 @@ function start_menu(){
     yellow " =================================================="
     red "宝塔面板 官方版 v7.6.0"
     green " 11. CentOS"
-    green " 12. Ubuntu&Deepin"
+    green " 12. Ubuntu&Debian"
     green " 13. Python3通用版"
     green " 14. 升级与更新"
     red "宝塔面板 Hostcli 净化版 v7.6.0"
     green " 21. Centos"
-    green " 22. Ubuntu&Deepin"
+    green " 22. Ubuntu&Debian"
     green " 23. 一键转移/升级"
     red "宝塔面板 Fenhao 开心版 v7.6.0 还在咕咕咕可能不能用"
     green " 31. CentOS"
-    green " 32. Ubuntu&Deepin"
+    green " 32. Ubuntu&Debian"
     green " 33. Python3通用版"
     green " 34. 升级与更新"
     green " 35. ARM 定制版"
