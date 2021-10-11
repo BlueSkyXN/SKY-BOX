@@ -54,25 +54,20 @@ curl http://v7.hostcli.com/install/update6.sh|bash
 #宝塔面板 Fenhao 开心版 v7.6.0
 #CentOS
 function btfh1(){
-yum install -y wget && wget -O install.sh https://download.seele.wang/ltd/install/install_6.0.sh --no-check-certificate && sh install.sh
-}
-
-#CentOS-old
-function btfh1b(){
-yum install -y wget && wget -O install.sh https://download.fenhao.me/ltd/install/install_6.0.sh --no-check-certificate && sh install.sh
+yum install -y wget && wget -O install.sh https://download.moetas.com/ltd/install/install_6.0.sh && sh install.sh
 }
 
 #Ubuntu&Debian
 function btfh2(){
-wget -O install.sh https://download.seele.wang/ltd/install/install-ubuntu_6.0.sh --no-check-certificate && sudo bash install.sh
+wget -O install.sh https://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
 }
 #Python3通用版
 function btfh3(){
-curl -sSO https://download.seele.wang/ltd/install/install_panel.sh -k && bash install_panel.sh
+curl -sSO https://download.moetas.com/ltd/install/install_panel.sh && bash install_panel.sh
 }
 #升级与更新
 function btfh4(){
-curl -sSO https://download.seele.wang/ltd/install/install_panel.sh -k && bash install_panel.sh
+curl https://download.moetas.com/ltd/install/update6.sh|bash
 }
 #ARM 定制版
 function btfh5(){
