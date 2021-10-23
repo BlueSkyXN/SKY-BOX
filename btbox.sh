@@ -51,7 +51,7 @@ function btcli3(){
 curl http://v7.hostcli.com/install/update6.sh|bash
 }
 
-#宝塔面板 Fenhao 开心版 v7.6.0
+#宝塔面板 Fenhao 开心版 v7.7.0
 #CentOS
 function btfh1(){
 yum install -y wget && wget -O install.sh https://download.moetas.com/ltd/install/install_6.0.sh && sh install.sh
@@ -61,7 +61,7 @@ yum install -y wget && wget -O install.sh https://download.moetas.com/ltd/instal
 function btfh2(){
 wget -O install.sh https://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
 }
-#Python3通用版
+#Python3通用版 已整合ARM
 function btfh3(){
 curl -sSO https://download.moetas.com/ltd/install/install_panel.sh && bash install_panel.sh
 }
@@ -69,14 +69,7 @@ curl -sSO https://download.moetas.com/ltd/install/install_panel.sh && bash insta
 function btfh4(){
 curl https://download.moetas.com/ltd/install/update6.sh|bash
 }
-#ARM 定制版
-function btfh5(){
-curl -sSO https://download.moetas.com/ltd/install/arm/install_panel.sh -k && bash install_panel.sh
-}
-#升级与更新ARM定制版
-function btfh6(){
-wget -O updatearm.sh https://download.moetas.com/ltd/install/arm/updatearm.sh --no-check-certificate && bash updatearm.sh
-}
+
 
 #主菜单
 function start_menu(){
@@ -96,13 +89,11 @@ function start_menu(){
     green " 21. Centos"
     green " 22. Ubuntu&Debian"
     green " 23. 一键转移/升级"
-    red "宝塔面板 Fenhao 开心版 v7.6.0 还在咕咕咕可能不能用"
+    red "宝塔面板 Fenhao 开心版 v7.7.0"
     green " 31. CentOS"
     green " 32. Ubuntu&Debian"
     green " 33. Python3通用版"
     green " 34. 升级与更新"
-    green " 35. ARM 定制版"
-    green " 36. 升级与更新ARM定制版【请先卸载NGINX等运行环境和全部插件】"
     green " =================================================="
     green " 0. 退出脚本"
     echo
