@@ -71,11 +71,11 @@ curl https://download.moetas.com/ltd/install/update6.sh|bash
 }
 #ARM 定制版
 function btfh5(){
-curl -sSO https://download.seele.wang/ltd/install/arm/install_panel.sh -k && bash install_panel.sh
+curl -sSO https://download.moetas.com/ltd/install/arm/install_panel.sh -k && bash install_panel.sh
 }
 #升级与更新ARM定制版
 function btfh6(){
-wget -O updatearm.sh https://download.seele.wang/ltd/install/arm/updatearm.sh --no-check-certificate && bash updatearm.sh
+wget -O updatearm.sh https://download.moetas.com/ltd/install/arm/updatearm.sh --no-check-certificate && bash updatearm.sh
 }
 
 #主菜单
