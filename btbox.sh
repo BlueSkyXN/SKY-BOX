@@ -69,7 +69,10 @@ curl -sSO https://download.moetas.com/ltd/install/install_panel.sh && bash insta
 function btfh4(){
 curl https://download.moetas.com/ltd/install/update6.sh|bash
 }
-
+#修复软件商店
+function btfh5(){
+curl http://download.yu.al/ltd/install/update6.sh|bash
+}
 
 #主菜单
 function start_menu(){
