@@ -97,6 +97,7 @@ function start_menu(){
     green " 32. Ubuntu&Debian"
     green " 33. Python3通用版"
     green " 34. 升级与更新"
+    green " 34. 修复软件商店"
     green " =================================================="
     green " 0. 退出脚本"
     echo
