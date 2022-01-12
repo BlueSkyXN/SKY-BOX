@@ -54,20 +54,20 @@ curl http://v7.hostcli.com/install/update6.sh|bash
 #宝塔面板 Fenhao 开心版 v7.7.0
 #CentOS
 function btfh1(){
-yum install -y wget && wget -O install.sh https://download.moetas.com/ltd/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh https://download.yu.al/ltd/install/install_6.0.sh && sh install.sh
 }
 
 #Ubuntu&Debian
 function btfh2(){
-wget -O install.sh https://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
+wget -O install.sh https://download.yu.al/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
 }
 #Python3通用版 已整合ARM
 function btfh3(){
-curl -sSO https://download.moetas.com/ltd/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://download.yu.al/ltd/install/install_panel.sh && bash install_panel.sh
 }
 #升级与更新
 function btfh4(){
-curl https://download.moetas.com/ltd/install/update6.sh|bash
+curl https://download.yu.al/ltd/install/update6.sh|bash
 }
 #修复软件商店
 function btfh5(){
