@@ -74,6 +74,29 @@ function btfh5(){
 curl http://download.bt.sy/ltd/install/update6.sh|bash
 }
 
+#宝塔面板 bt.sy 开心版 v7.9.4
+#CentOS
+function btsy1(){
+yum install -y wget && wget -O install.sh http://io.bt.sy/install/install_6.0.sh && sh install.sh
+}
+
+#Ubuntu&Debian
+function btsy2(){
+wget -O install.sh http://io.bt.sy/install/install-ubuntu_6.0.sh && sudo bash install.sh
+}
+#Python3通用版
+function btsy3(){
+curl -sSO http://io.bt.sy/install/install_panel.sh && bash install_panel.sh
+}
+#升级与更新
+function btsy4(){
+curl https://io.bt.sy/install/update_panel.sh|bash
+}
+#修复软件商店
+function btsy5(){
+curl http://io.bt.sy/install/update6.sh|bash
+}
+
 #主菜单
 function start_menu(){
     clear
@@ -98,6 +121,12 @@ function start_menu(){
     green " 33. Python3通用版"
     green " 34. 升级与更新"
     green " 35. 修复软件商店"
+    red "宝塔面板 bt.sy 开心版 v7.9.4"
+    green " 41. CentOS"
+    green " 42. Ubuntu&Debian"
+    green " 43. Python3通用版"
+    green " 44. 升级与更新"
+    green " 45. 修复软件商店"
     green " =================================================="
     green " 0. 退出脚本"
     echo
@@ -140,8 +169,20 @@ function start_menu(){
 	35 )
            btfh5
 	;;
-	36 )
-           btfh6
+	41 )
+           btsy1
+	;;
+	42 )
+           btsy2
+	;;
+	43 )
+           btsy3
+	;;
+	44 )
+           btsy4
+	;;
+	45 )
+           btsy5
 	;;
         0 )
             exit 1
