@@ -74,7 +74,9 @@ function btfh5(){
 curl http://download.bt.sy/ltd/install/update6.sh|bash
 }
 
-#宝塔面板 bt.sy 开心版 v7.9.4
+#宝塔面板 bt.sy 开心版 v7.9.10-20230525
+#https://bt.sb/bbs/thread-20541-1-1.html
+#https://t.me/rsakuraban
 #CentOS
 function btsy1(){
 yum install -y wget && wget -O install.sh http://io.bt.sy/install/install_6.0.sh && sh install.sh
@@ -121,7 +123,7 @@ function start_menu(){
     green " 33. Python3通用版"
     green " 34. 升级与更新"
     green " 35. 修复软件商店"
-    red "宝塔面板 bt.sy 开心版 v7.9.4"
+    red "宝塔面板 bt.sy 开心版 v7.9.10-20230525"
     green " 41. CentOS"
     green " 42. Ubuntu&Debian"
     green " 43. Python3通用版"
