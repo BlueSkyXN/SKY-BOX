@@ -6,6 +6,7 @@ BlueSkyXN Comprehensive Toolbox Linux only supports
 https://www.blueskyxn.com/202104/4465.html
 https://www.blueskyxn.com/202105/4585.html
 
+
 ## 使用方法
 
 wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh
@@ -208,3 +209,7 @@ changesource.sh
 有问题看心情解决，版权/功能等问题请发issue
 
 爱用不用，反正只是低端作品罢了，觉得还可以的话希望右上角点个星标
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BlueSkyXN/SKY-BOX&type=Date)](https://star-history.com/#BlueSkyXN/SKY-BOX&Date)
